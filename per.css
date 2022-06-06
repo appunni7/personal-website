@@ -1,0 +1,68 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 5px; /* Rounded borders */
+    box-sizing: border-box ; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #5bc0de;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .sub-btm{
+    background: #4267b2;
+    color: #5bc0de;
+    height: 50px;
+    border-color: #29487d;
+    cursor: pointer;
+  }
+  .sub-btm:hover{
+      background: black;
+  }
+  .btn:hover{
+      background: black;
+  }
+  .button {
+    border: none;
+    color: rgb(216, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .btn:hover{
+    background: black;
+}
+.logo-text{
+        font-size:2.5em; /* 40px/16=2.5em */
+}
+.logo-text{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue, Helvetica,arial,sans-serif;
+    margin-left: 1px;
+}
